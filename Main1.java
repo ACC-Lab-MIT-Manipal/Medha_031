@@ -1,5 +1,3 @@
-package pollard_rho_dicrete_log;
-
 import java.util.HashMap;
 
 public class Main1 {
