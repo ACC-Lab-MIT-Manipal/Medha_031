@@ -4,10 +4,10 @@ import java.util.*;
 public class MainBaby {
 	public static int powInv(int n,int q)
 	{
-		n = n%q;
+		
 		for(int i=1;i<q;i++)
 		{
-			if(n%i==1)
+			if((n*i)%q==1)
 				return i;
 		}
 		return -1;
