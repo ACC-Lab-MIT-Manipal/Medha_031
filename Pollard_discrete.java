@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class Main1 {
+public class Pollard_discrete {
 	public static int inv(int a,int n)
 	{
 		int neg_flag = 0; 
