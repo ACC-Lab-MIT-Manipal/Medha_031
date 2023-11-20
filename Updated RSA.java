@@ -39,7 +39,7 @@ public class M{
 		int msg=s.nextInt();
 		int c=fast_expo(msg,e,n)%n;
 		System.out.println("Encrypted msg:"+c);
-		int decrypt=fast_expo(c,d,n);
+		int decrypt=fast_expo(c,d,n)%n;
 		System.out.println("Decrypted msg:"+decrypt);
 		
 	}
